@@ -12,16 +12,6 @@
     "client.js",
     "cordis.patch.yml"
   ],
-  "scripts": {
-    "build": "dsh-wb-module build",
-    "typecheck": "tsc --noEmit",
-    "selfcheck": "dsh-wb-module build && node scripts/smoke.mjs",
-    "prepack": "dsh-wb-module build",
-    "test": "vitest run",
-    "check": "dsh-wb-module check",
-    "arch": "node ../module-tools/bin/dsh-wb-module.mjs check --only arch",
-    "lint": "dsh-wb-module lint"
-  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
