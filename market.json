@@ -5,21 +5,25 @@
       "name": "@dsh-workbench/module-hello",
       "versions": [
         {
-          "version": "0.3.11",
+          "version": "1.1.13",
           "source": {
-            "type": "git",
-            "url": "https://github.com/novaeth/dsh-workbench-market.git",
-            "commit": "dbb28de67c57690b205be765b3d5a144d98d06b5",
-            "path": "packages/hello"
+            "type": "npm"
           },
-          "publishTimestamp": 1792940089
+          "publishTimestamp": 1793347564
         }
       ],
+      "title": {
+        "zh": "示例模块",
+        "en": "Sample module"
+      },
       "description": {
-        "zh": "最小示例模块：装上后面板里多一张卡片，用来试装试卸。"
+        "zh": "最小示例模块：装上后面板里多一张卡片，用来试装试卸。",
+        "en": "Smallest sample module: one extra card on the panel, for trying installs and uninstalls."
       },
       "homepage": "https://github.com/novaeth/dsh-workbench#readme",
       "metadata": {
+        "workbench": true,
+        "unit": "hello",
         "category": "workbench",
         "labels": [
           "workbench"
