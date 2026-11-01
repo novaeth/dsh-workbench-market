@@ -5,11 +5,14 @@
       "name": "@dsh-workbench/module-hello",
       "versions": [
         {
-          "version": "1.1.13",
+          "version": "1.1.14-beta.2",
           "source": {
-            "type": "npm"
+            "type": "git",
+            "url": "https://github.com/novaeth/dsh-workbench-market.git",
+            "commit": "f41c72ef335d8e8bf0e276374e6c30ea175ddd00",
+            "path": "packages/module-hello"
           },
-          "publishTimestamp": 1793347564
+          "publishTimestamp": 1793495995
         }
       ],
       "title": {
