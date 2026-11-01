@@ -13,16 +13,6 @@
     "cordis.patch.yml",
     "CHANGELOG.md"
   ],
-  "scripts": {
-    "build": "dsh-wb-module build",
-    "typecheck": "tsc --noEmit",
-    "selfcheck": "dsh-wb-module build && node scripts/smoke.mjs",
-    "prepack": "dsh-wb-module build",
-    "test": "vitest run",
-    "check": "dsh-wb-module check",
-    "arch": "node ../module-tools/bin/dsh-wb-module.mjs check --only arch",
-    "lint": "dsh-wb-module lint"
-  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
@@ -64,19 +54,6 @@
     "react": {
       "optional": true
     }
-  },
-  "devDependencies": {
-    "@dsh-workbench/core": "workspace:*",
-    "@dsh-workbench/module-tools": "workspace:*",
-    "@types/node": "^24.19.0",
-    "@types/react": "^19.3.0",
-    "esbuild": "^0.28.2",
-    "react": "^19.3.0",
-    "typescript": "5.9",
-    "vitest": "^5.0.2"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "license": "MIT",
   "repository": {
